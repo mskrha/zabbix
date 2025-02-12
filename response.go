@@ -44,7 +44,7 @@ func parseResponse(in []byte) (ret Response, err error) {
 	}
 
 	if r.Response != "success" {
-		err = fmt.Errorf("Request was not successfull")
+		err = fmt.Errorf("Request was not successful")
 		return
 	}
 
